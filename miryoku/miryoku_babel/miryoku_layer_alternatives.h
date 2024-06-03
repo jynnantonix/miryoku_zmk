@@ -100,7 +100,13 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 &kp SQT,           &kp COMMA,         &kp DOT,           &kp P,             &kp Y,             &kp F,             &kp G,             &kp C,             &kp R,             &kp L,             \
 U_MT(LGUI, A),     U_MT(LALT, O),     U_MT(LCTRL, E),    U_MT(LSHFT, U),    &kp I,             &kp D,             U_MT(LSHFT, H),    U_MT(LCTRL, T),    U_MT(LALT, N),     U_MT(LGUI, S),     \
 U_LT(U_BUTTON, SLASH),U_MT(RALT, Q),     &kp J,             &kp K,             &kp X,             &kp B,             &kp M,             &kp W,             U_MT(RALT, V),     U_LT(U_BUTTON, Z), \
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, RET),U_LT(U_MOUSE, TAB),U_LT(U_SYM, BSPC),  U_LT(U_NUM, SPACE), U_LT(U_FUN, DEL),  U_NP,              U_NP
+
+#define MIRYOKU_ALTERNATIVES_BASE_ENGRAM \
+&kp B,             &kp Y,             &kp O,             &kp U,             &kp Z,             &kp Q,             &kp L,             &kp D,             &kp W,             &kp V,             \
+U_MT(LGUI, C),     U_MT(LALT, I),     U_MT(LCTRL, E),    U_MT(LSHFT, A),    &kp COMMA,         &kp DOT,           U_MT(LSHFT, H),    U_MT(LCTRL, T),    U_MT(LALT, S),     U_MT(LGUI, N),     \
+U_LT(U_BUTTON, G), U_MT(RALT, X),     &kp J,             &kp K,             &kp SQT,           &kp SLASH,         &kp R,             &kp M,             U_MT(RALT, F),     U_LT(U_BUTTON, P), \
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, RET),U_LT(U_MOUSE, TAB),U_LT(U_SYM, BSPC),  U_LT(U_NUM, SPACE), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_HALMAK \
 &kp W,             &kp L,             &kp R,             &kp B,             &kp Z,             &kp SQT,           &kp Q,             &kp U,             &kp D,             &kp J,             \
@@ -276,7 +282,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
 U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp BSPC,          &kp SPACE,         &kp DEL,           U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_MOUSE_INVERTEDT_FLIP \
@@ -377,7 +383,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp F12,           &kp F7,            &kp F8,            &kp F9,            &kp PSCRN,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              U_NP,              &kp K_APP,         &kp RET,           &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_BUTTON \
