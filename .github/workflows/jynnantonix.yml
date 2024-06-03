@@ -1,0 +1,24 @@
+# Copyright 2024 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Jynnantonix Glove80'
+on: workflow_dispatch
+jobs:
+  lh:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["glove80_lh"]'
+      alphas: '["Engram"]'
+      extra: '["Dvorak"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_TAPDELAY"]'
+      kconfig: '["CONFIG_ZMK_SLEEP=y"]'
+  rh:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["glove80_rh"]'
+      alphas: '["Engram"]'
+      extra: '["Dvorak"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_TAPDELAY"]'
+      kconfig: '["CONFIG_ZMK_SLEEP=y"]'
