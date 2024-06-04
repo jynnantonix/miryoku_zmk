@@ -11,8 +11,7 @@ jobs:
       board: '["glove80_lh"]'
       alphas: '["Engram"]'
       extra: '["Dvorak"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_TAPDELAY"]'
-      kconfig: '["CONFIG_ZMK_SLEEP=y"]'
+      custom_config: '["#define MIRYOKU_LAYER_NUM MIRYOKU_ALTERNATIVES_NUM_FLIP\n#define MIRYOKU_LAYER_MEDIA MIRYOKU_ALTERNATIVES_MEDIA_FLIP"]'
   rh:
     uses: ./.github/workflows/main.yml
     secrets: inherit
@@ -20,5 +19,4 @@ jobs:
       board: '["glove80_rh"]'
       alphas: '["Engram"]'
       extra: '["Dvorak"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_TAPDELAY"]'
-      kconfig: '["CONFIG_ZMK_SLEEP=y"]'
+      custom_config: '["#define MIRYOKU_LAYER_NUM MIRYOKU_ALTERNATIVES_NUM_FLIP\n#define MIRYOKU_LAYER_MEDIA MIRYOKU_ALTERNATIVES_MEDIA_FLIP"]'
