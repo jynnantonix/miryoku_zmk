@@ -100,13 +100,13 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 &kp SQT,           &kp COMMA,         &kp DOT,           &kp P,             &kp Y,             &kp F,             &kp G,             &kp C,             &kp R,             &kp L,             \
 U_MT(LGUI, A),     U_MT(LALT, O),     U_MT(LCTRL, E),    U_MT(LSHFT, U),    &kp I,             &kp D,             U_MT(LSHFT, H),    U_MT(LCTRL, T),    U_MT(LALT, N),     U_MT(LGUI, S),     \
 U_LT(U_BUTTON, SLASH),U_MT(RALT, Q),     &kp J,             &kp K,             &kp X,             &kp B,             &kp M,             &kp W,             U_MT(RALT, V),     U_LT(U_BUTTON, Z), \
-U_NP,              U_NP,              U_LT(U_MOUSE, ESC),U_LT(U_NAV, RET),U_LT(U_NUM, TAB),U_LT(U_MEDIA, BSPC),  U_LT(U_SYM, SPACE), U_LT(U_FUN, DEL),  U_NP,              U_NP
+U_NP,              U_NP,              U_LT(U_MOUSE, ESC),U_LT(U_NUM, RET),U_LT(U_NAV, TAB),U_LT(U_MEDIA, BSPC),  U_LT(U_SYM, SPACE), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_ENGRAM \
 &kp B,             &kp Y,             &kp O,             &kp U,             &kp Z,             &kp Q,             &kp L,             &kp D,             &kp W,             &kp V,             \
 U_MT(LGUI, C),     U_MT(LALT, I),     U_MT(LCTRL, E),    U_MT(LSHFT, A),    &kp COMMA,         &kp DOT,           U_MT(LSHFT, H),    U_MT(LCTRL, T),    U_MT(LALT, S),     U_MT(LGUI, N),     \
 U_LT(U_BUTTON, G), U_MT(RALT, X),     &kp J,             &kp K,             &kp SQT,           &kp SLASH,         &kp R,             &kp M,             U_MT(RALT, F),     U_LT(U_BUTTON, P), \
-U_NP,              U_NP,              U_LT(U_MOUSE, ESC),U_LT(U_NAV, RET),U_LT(U_NUM, TAB),U_LT(U_MEDIA, BSPC),  U_LT(U_SYM, SPACE), U_LT(U_FUN, DEL),  U_NP,              U_NP
+U_NP,              U_NP,              U_LT(U_MOUSE, ESC),U_LT(U_NUM, RET),U_LT(U_NAV, TAB),U_LT(U_MEDIA, BSPC),  U_LT(U_SYM, SPACE), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_HALMAK \
 &kp W,             &kp L,             &kp R,             &kp B,             &kp Z,             &kp SQT,           &kp Q,             &kp U,             &kp D,             &kp J,             \
