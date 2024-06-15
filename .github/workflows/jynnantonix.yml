@@ -12,6 +12,7 @@ jobs:
       alphas: '["Engram"]'
       extra: '["Dvorak"]'
       custom_config: '["#define MIRYOKU_LAYER_NUM MIRYOKU_ALTERNATIVES_NUM_FLIP\n#define MIRYOKU_LAYER_MEDIA MIRYOKU_ALTERNATIVES_MEDIA_FLIP"]'
+      branches: '["moergo-sc/zmk/main"]'
   rh:
     uses: ./.github/workflows/main.yml
     secrets: inherit
@@ -20,3 +21,4 @@ jobs:
       alphas: '["Engram"]'
       extra: '["Dvorak"]'
       custom_config: '["#define MIRYOKU_LAYER_NUM MIRYOKU_ALTERNATIVES_NUM_FLIP\n#define MIRYOKU_LAYER_MEDIA MIRYOKU_ALTERNATIVES_MEDIA_FLIP"]'
+      branches: '["moergo-sc/zmk/main"]'
