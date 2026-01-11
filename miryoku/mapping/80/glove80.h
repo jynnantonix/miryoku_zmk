@@ -4,6 +4,9 @@
 #if !defined (MIRYOKU_LAYOUTMAPPING_GLOVE80)
 
 #define XXX &none
+#define STT &rgb_ug RGB_STATUS
+#define MAG &mo MAGIC
+#define DEF &to DEFAULT
 
 #define MIRYOKU_LAYOUTMAPPING_GLOVE80( \
      K00, K01, K02, K03, K04,                                    K05, K06, K07, K08, K09, \
@@ -15,7 +18,7 @@ XXX  XXX  XXX  XXX  XXX                                               XXX  XXX  
 XXX  XXX  XXX  XXX  XXX  XXX                                     XXX  XXX  XXX  XXX  XXX  XXX \
 XXX  K00  K01  K02  K03  K04                                     K05  K06  K07  K08  K09  XXX \
 XXX  K10  K11  K12  K13  K14                                     K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24  K32  XXX  XXX       XXX  XXX  K37  K25  K26  K27  K28  K29  XXX \
+XXX  K20  K21  K22  K23  K24  K32  STT  DEF       DEF  MAG  K37  K25  K26  K27  K28  K29  XXX \
 XXX  XXX  XXX  XXX  XXX       K33  K34  K32       K37  K35  K36       XXX  XXX  XXX  XXX  XXX
 
 #endif
